@@ -7,7 +7,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/org_img.png?raw=true)  
+![原画像](http://ord.yahoo.co.jp/o/image/_ylt=A2RivcQvv4hX61oA8yyU3uV7;_ylu=X3oDMTAyN3Vldmc1BDAD/SIG=12q5p3iju/EXP=1468666031;_ylc=X3IDMgRmc3QDMQRpZHgDMARvaWQDQU5kOUdjU05lZkF0LWFRUDdISXdSV3BkaHZoZllqb1cxR2Nia21wZE1zbmF3RlNTbkR1RVcyZHdPMmtMdkg4BHADYUdGeWNua2djM1I1YkdWegRwb3MDNTgEc2VjA3NodwRzbGsDc2ZzdAR0dXJsAw--/**http%3a//photos.laineygossip.com/articles/harry-styles-22-03feb16-01.jpg)  
 図1 原画像
 
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
