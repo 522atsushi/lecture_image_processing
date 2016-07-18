@@ -6,7 +6,7 @@
 
 clear; % 変数のオールクリア
 
-ORG=imread('http://ord.yahoo.co.jp/o/image/_ylt=A2RivcQvv4hX61oA8yyU3uV7;_ylu=X3oDMTAyN3Vldmc1BDAD/SIG=12q5p3iju/EXP=1468666031;_ylc=X3IDMgRmc3QDMQRpZHgDMARvaWQDQU5kOUdjU05lZkF0LWFRUDdISXdSV3BkaHZoZllqb1cxR2Nia21wZE1zbmF3RlNTbkR1RVcyZHdPMmtMdkg4BHADYUdGeWNua2djM1I1YkdWegRwb3MDNTgEc2VjA3NodwRzbGsDc2ZzdAR0dXJsAw--/**http%3a//photos.laineygossip.com/articles/harry-styles-22-03feb16-01.jpg'); % 原画像の入力
+ORG=imread('http://ord.yahoo.co.jp/o/image/_ylt=A2RCL6mgcoxX6C0ArlWU3uV7;_ylu=X3oDMTAyN3Vldmc1BDAD/SIG=12euvkklr/EXP=1468908576;_ylc=X3IDMgRmc3QDMQRpZHgDMARvaWQDQU5kOUdjUzQyaFd6UlRkdDF6ZlduZHNvazVCdHQtckhyS2Nkcm1IOXExZnhYRjc5YnNDeWhzMlpfaWZibHRNBHADYUdGeWNua2djM1I1YkdWegRwb3MDMzQwBHNlYwNzaHcEc2xrA3Nmc3QEdHVybAM-/**http%3a//ks.c.yimg.jp/res/chie-que-13142/13/142/818/403/i320'); % 原画像の入力
 imagesc(ORG); axis image; % 画像の表示
 pause; % 一時停止
 
